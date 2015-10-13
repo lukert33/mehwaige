@@ -1,0 +1,68 @@
+ul {
+  list-style: none;
+}
+
+h1, h2, h3 {
+  font-family: 'Special Elite', monospace;  
+  color: #282200;
+}
+
+p {
+  color: #282200;
+  font-family: 'Cutive Mono', monospace;
+}
+
+
+a:hover {
+  color: initial;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+nav {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Special Elite', monospace;  
+  font-weight: bolder;
+}
+
+nav a {
+  font-family: 'Cutive Mono', monospace;
+  color: #CCAC00;
+}
+
+.row.pushdown {
+  margin-bottom: 30px;
+}
+
+/*modules*/
+.page-header {
+  text-align: center;
+}
+
+#img-banner {
+  background: #282200;
+  position: absolute;
+  left: 0;
+  margin: 0 auto;
+}
+
+/*.img-holder {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+#img-banner .img-holder:nth-child(1) {
+  background-image: url("../luke_bw.jpg"); 
+}
+#img-banner .img-holder:nth-child(2) {
+  background-image: url("../socrates_chandelier.jpg"); 
+}
+#img-banner .img-holder:nth-child(3) {
+  background-image: url("../fall_street.jpg"); 
+}
+#img-banner .img-holder:nth-child(4) {
+  background-image: url("../nicole_champagne.jpg"); 
+}*/

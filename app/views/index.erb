@@ -1,17 +1,21 @@
 <div class="container">
 
-      <div class="page-header" id="tester">
-        <h1>Bootstrap grid examples</h1>
-        <p class="lead">Basic grid layouts to get you familiar with building within the Bootstrap grid system.</p>
+      <div class="row page-header col-md-offset-3 col-md-6">
+        <h1>06 . 11 . 2016</h1>
+        <h2 class="lead">Nicole and Luke are getting married!</h2>
       </div>
-
-      <h3>Three equal columns</h3>
-      <p>Get three equal-width columns <strong>starting at desktops and scaling to large desktops</strong>. On mobile devices, tablets and below, the columns will automatically stack.</p>
-      <div class="row">
-        <div class="col-md-4">.col-md-4</div>
-        <div class="col-md-4">.col-md-4</div>
-        <div class="col-md-4">.col-md-4</div>
+      
+      <%= erb :nav, :layout => false %>
+      <div class="row pushdown" style="height: 207px">
+      <div class="col-md-12" id="img-banner">
+        <div class="col-md-1"> <img class="img-responsive" style="height:270px" src="trees.jpg"></div>
+        <div class="col-md-2"> <img class="img-responsive" style="height:270px" src="luke_bw.jpg"></div>
+        <div class="col-md-4"> <img class="img-responsive" style="height:270px" src="socrates_chandelier.jpg"></div>
+        <div class="col-md-2"> <img class="img-responsive" style="height:270px" src="fall_street.jpg"></div>
+        <div class="col-md-3"> <img class="img-responsive" style="height:270px" src="nicole_champagne.jpg"></div>
       </div>
+      </div>  
+    
 
       <h3>Three unequal columns</h3>
       <p>Get three columns <strong>starting at desktops and scaling to large desktops</strong> of various widths. Remember, grid columns should add up to twelve for a single horizontal block. More than that, and columns start stacking no matter the viewport.</p>
