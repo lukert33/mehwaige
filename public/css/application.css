@@ -47,22 +47,7 @@ nav a {
   position: absolute;
   left: 0;
   margin: 0 auto;
-}
 
-/*.img-holder {
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+  display: flex;
+  justify-content: space-around;
 }
-#img-banner .img-holder:nth-child(1) {
-  background-image: url("../luke_bw.jpg"); 
-}
-#img-banner .img-holder:nth-child(2) {
-  background-image: url("../socrates_chandelier.jpg"); 
-}
-#img-banner .img-holder:nth-child(3) {
-  background-image: url("../fall_street.jpg"); 
-}
-#img-banner .img-holder:nth-child(4) {
-  background-image: url("../nicole_champagne.jpg"); 
-}*/
