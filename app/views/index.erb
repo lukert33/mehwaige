@@ -1,13 +1,9 @@
 <div class="container">
 
-      <div class="row page-header col-md-offset-3 col-md-6">
-        <h1>06 . 11 . 2016</h1>
-        <h2 class="lead">Nicole and Luke are getting married!</h2>
-      </div>
-      
-      <%= erb :nav, :layout => false %>
       <div class="row pushdown" style="height: 207px">
       <div class="col-md-12" id="img-banner">
+        <a class="fancybox" rel="group" href="trees.jpg"><img src="trees.jpg" alt="" /></a>
+
         <div class="col-md-1"> <img class="img-responsive" style="height:270px" src="trees.jpg"></div>
         <div class="col-md-2"> <img class="img-responsive" style="height:270px" src="luke_bw.jpg"></div>
         <div class="col-md-4"> <img class="img-responsive" style="height:270px" src="socrates_chandelier.jpg"></div>
@@ -118,3 +114,9 @@
 
 
     </div>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(".fancybox").fancybox();
+  });
+</script>
