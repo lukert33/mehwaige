@@ -12,8 +12,6 @@ get '/rsvp' do
 end
 
 post '/rsvp' do
-  puts "zazz"
-  puts ENV['SENDGRID_USERNAME']
  require 'pony'
  Pony.mail({
   :from => params[:name],
@@ -36,4 +34,8 @@ end
 
 get '/success' do
   erb :success
+end
+
+get '/registery' do 
+  erb :registery
 end
