@@ -1,3 +1,7 @@
+body {
+  padding-bottom: 30px;
+}
+
 ul {
   list-style: none;
 }
@@ -7,7 +11,14 @@ h1, h2, h3 {
   color: #282200;
 }
 
-p, table {
+p, form {
+  color: #282200;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 18px;
+}
+
+table {
+  font-size: 16px;
   color: #282200;
   font-family: 'Cutive Mono', monospace;
 }
@@ -58,6 +69,10 @@ nav ul {
 }
 
 /*modules*/
+.highlight {
+  color: #CCAC00;
+}
+
 .page-header {
   text-align: center;
 }
@@ -82,6 +97,8 @@ nav ul {
   color: #282200;  
   width: 290px;
   text-align: center;
+  font-size: 16px;
+  padding-top: 10px;
 }
 
 #vortex {
@@ -113,8 +130,44 @@ nav ul {
   padding-left: 10px;
 }
 
+.hotel-table {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .watermark {
   text-align: center;
   font-size: 50px;
   margin-top: 40px;
+}
+
+form#rsvp {
+  font-size: 16px;
+  border: 1px solid #CCAC00;
+  margin-bottom: 70px;
+  padding: 20px 15px;
+}
+
+.title-rsvp {
+  margin-top: 0;
+}
+
+.checkboxes {
+}
+
+.checkrow {
+  font-size: 12px;
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+
+.checkrow li {
+  display: inline-block;
+  margin-right: 10px;
+  width: 165px;
+}
+
+.btn-rsvp {
+  margin: 10px auto;
+  font-size: 18px;
 }

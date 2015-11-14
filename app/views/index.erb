@@ -12,15 +12,23 @@
 
   <div class="row">
   <div class="col-md-10 col-md-offset-2">
-    <p>Join us as we get hitched and celebrate!</p>
-
-    <p>The wedding, followed immediately by the reception, will take place <span class="wedding-counter"><%=  %> days</span> from now, at:</p>
+    <div class="col-md-11">
+      <p>Join us on <span class="highlight">Saturday, June 11th, 2016</span> as we get hitched and celebrate!</p>
+      
+      <p>The wedding, followed immediately by the reception, will take place <span class="wedding-counter"><%= (Time.new(2016, 6, 11) - Time.now).to_i / (24 * 60 * 60) %> days</span> from now, at:</p>
+    </div>
 
     <div class="address col-md-3 col-md-offset-3">
       <a href="http://nightofjoybar.com/">Night of Joy</a><br>
       667 Lorimer St (at Meeker)<br>
       Brooklyn, NY 11211<br>
-      <div class="watermark">&infin;</div>
+      <br>
+    </div>
+    
+    <div class="col-md-11">
+      <p>Please arrive at the venue by 3:30pm. The ceremony will be held at 4pm, on the back deck. We'll have a combination of seats and standing room during the ceremony.</p>
+
+      <p>A cash bar reception will immediately follow. There will also be a large sampling of Brooklyn's finest delivery cuisine.</p>
     </div>
     
   </div>
