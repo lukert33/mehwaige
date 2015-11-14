@@ -7,13 +7,21 @@ h1, h2, h3 {
   color: #282200;
 }
 
-p {
+p, table {
   color: #282200;
   font-family: 'Cutive Mono', monospace;
 }
 
+.content {
+  margin: 0 60px;
+}
+
 .page-header {
   margin-top: 20px;
+}
+
+a {
+  color: #CCAC00;
 }
 
 a:hover {
@@ -38,6 +46,10 @@ nav a {
 
 nav ul {
   padding-bottom: 20px;
+}
+
+.nav-list {
+  text-align: center;
 }
 
 .banner-row {
@@ -69,6 +81,40 @@ nav ul {
   font-family: 'Special Elite', monospace;
   color: #282200;  
   width: 290px;
-  margin: 0 auto;
   text-align: center;
+}
+
+#vortex {
+  color: orange;
+  text-decoration: underline;
+}
+
+#vortex-img {
+  display: none;
+  position: fixed;
+  top: 300px;
+  right: 300px;
+}
+
+#vortex:hover {
+  cursor: crosshair;
+}
+
+#vortex:hover #vortex-img {
+  display: block;
+}
+
+.hotel-code {
+  color: #CCAC00;
+  font-weight: bold;
+}
+
+.hotel-table td, .hotel-table tr  {
+  padding-left: 10px;
+}
+
+.watermark {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 40px;
 }

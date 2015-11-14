@@ -17,6 +17,7 @@ gem 'activerecord', '~>4.1'
 gem 'rake'
 
 gem 'shotgun'
+gem 'pony'
 
 group :test do
   gem 'faker'
