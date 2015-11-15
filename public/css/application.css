@@ -170,4 +170,14 @@ form#rsvp {
 .btn-rsvp {
   margin: 10px auto;
   font-size: 18px;
+  background-color: rgba(125,193,233,0.59);
+}
+
+select {
+  background-color: #fff;
+}
+
+#humanity {
+  display: inline;
+  width: 80px;
 }

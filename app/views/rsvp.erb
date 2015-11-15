@@ -27,7 +27,7 @@
       <div class="col-md-12">
       <label>Name: </label><input type="text" name="name">
       <label># in your party: </label>
-      <select>
+      <select form_id="rsvp" name="number">
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
@@ -37,8 +37,9 @@
         <option value="7+">7+</option>
       </select><br>
       <label>Email at which can keep you updated: </label><input type="text" name="email">    
-      <textarea class="col-md-12 col-sm-12 col-xs-12" rows="4" name="comment" placeholder="Comments"></textarea>  
+      <textarea class="col-md-12 col-sm-12 col-xs-12" rows="4" name="comment" placeholder="Comments (also if you are RSVPing for a group please list the names here)."></textarea>  
       </div>
+      <p class="col-md-12"><label>Human check; fill in the blank:</label> <br>Something old, something new, something borrowed, something <input id="humanity" type="text" name="human">, and a silver sixpence in her shoe</p>
     </div>
       <input class="col-md-4 col-md-push-4 btn btn-rsvp" type="submit">
     </form>
