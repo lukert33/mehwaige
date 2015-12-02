@@ -48,6 +48,6 @@ get '/success' do
   erb :success
 end
 
-get '/registery' do 
-  erb :registery
+get '/registry' do 
+  erb :registry
 end
