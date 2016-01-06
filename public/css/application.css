@@ -33,6 +33,7 @@ table {
 
 a {
   color: #CCAC00;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -53,6 +54,7 @@ nav {
 nav a {
   font-family: 'Cutive Mono', monospace;
   color: #CCAC00;
+  text-decoration: none;
 }
 
 nav ul {
