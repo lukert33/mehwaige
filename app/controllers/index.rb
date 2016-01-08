@@ -12,7 +12,7 @@ get '/rsvp' do
 end
 
 post '/rsvp' do
-  p params[:human]
+  p params
   if params[:human].strip.downcase != "blue"
     @notice = "Please prove that you're not a robot."
     erb :rsvp
