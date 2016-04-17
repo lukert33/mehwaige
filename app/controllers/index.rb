@@ -51,3 +51,11 @@ end
 get '/registry' do 
   erb :registry
 end
+
+get '/before' do 
+  erb :before
+end
+
+get '/after' do 
+  erb :after
+end

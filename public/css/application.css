@@ -46,7 +46,7 @@ h1 {
 
 nav {
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Special Elite', monospace;  
   font-weight: bolder;
 }
@@ -62,7 +62,13 @@ nav ul {
 }
 
 .nav-list {
-  text-align: center;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+  -webkit-justify-content: space-around; /* Safari 6.1+ */
+  justify-content: space-around;
 }
 
 .banner-row {
